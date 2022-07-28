@@ -12,29 +12,128 @@
         <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
         <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
         <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Rajdhani&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Niconne&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css" />
     
         <title>NewDay Airlines</title>
     </head>
     <body>
         <header>
-            <nav>
-                <a href="">
-                    <img src="img/airlines.png" width="30" height="30" alt="airlines">
-                </a>
+            <nav class="navbar navbar-expand-sm navbar-light  sticky-top">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img src="img/airlines.png" width="30" height="30" alt="airlines">
+                        NewDay Airlines
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#NavBar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="col-sm-2 mr-4  collapse navbar-collapse" id="NavBar">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">
+                                    Home
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    Login
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    About
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    Help
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
         </header>
 
-
-
-
-
-
-
-
-
-                
-        
+        <div class="container">
+            <div class="row row-content">
+                <div class="col-md-10 mx-auto">
+                    <div id="homeCarousel" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#homeCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#homeCarousel" data-slide-to="1"></li>
+                            <li data-target="#homeCarousel" data-slide-to="2"></li>
+                            <li data-target="#homeCarousel" data-slide-to="3"></li>
+                            <li data-target="#homeCarousel" data-slide-to="4"></li>
+                            <li data-target="#homeCarousel" data-slide-to="5"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active"">
+                                <img class="d-block w-100" src="img/Delhi-India.jpeg" alt="Delhi, India" >
+                                <div class="carousel-caption">
+                                    <h2>Taj Mahai and The Four Minarets</h2>
+                                    <div class="d-none d-sm-block">
+                                        <h4>Delhi, India</h4>
+                                        <h5>Author: Sudipta Mondal</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="img/Machu_Pichu-Peru.jpeg" alt="Machu Pichu, Peru">
+                                <div class="carousel-caption">
+                                    <h3>Machu Pichu</h3>
+                                    <div class="d-none d-sm-block">
+                                        <h4>Cusco, Peru</h4>
+                                        <h5>Author: Errin Casano</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="img/Paris-France-s.jpeg" alt="Paris, France">
+                                <div class="carousel-caption">
+                                    <h3>Eiffel Tower</h3>
+                                    <div class="d-none d-sm-block">
+                                        <h4>Paris, France</h4>
+                                        <h5>Author: Yovan Verma</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="img/Valparaíso-Chile-s.jpeg" alt="Valparaíso, Chile">
+                                <div class="carousel-caption">
+                                    <h3>Brown Statues</h3>
+                                    <div class="d-none d-sm-block">
+                                        <h4>Region de Valparaíso, Chile</h4>
+                                        <h5>Author: Andrea Vera Sasso</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="img/Orlando-USA-s.jpeg" alt="Orlando, USA">
+                                <div class="carousel-caption">
+                                    <h3>Disneyland</h3>
+                                    <div class="d-none d-sm-block">
+                                        <h4>Orlando, FL, USA</h4>
+                                        <h5>Author: Craig Adderley</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="img/Kyoto-Japan-s.jpeg" alt="Kyoto, Japan">
+                                <div class="carousel-caption">
+                                    <h3>Shinto Shrine</h3>
+                                    <div class="d-none d-sm-block">
+                                        <h4>Kyoto, Kyoto, Japan</h4>
+                                        <h5>Author: Sudipta Mondal</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
         <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
         <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
