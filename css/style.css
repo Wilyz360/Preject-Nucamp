@@ -25,6 +25,8 @@ header {
     border-bottom: 1px ridge;
     min-height: 200px;
 }
-/* li {
-    padding: 10px;
-} */
+
+#loginModal .modal-header {
+    background-color: #EEEEF7;
+    color: black;
+}
