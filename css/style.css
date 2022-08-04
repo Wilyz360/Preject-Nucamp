@@ -1,9 +1,13 @@
+body {
+    background: #BDB9F9;
+}
+
 h1{
     font-family: 'Indie Flower', cursive;
 }
 
-nav {
-    background: #BDB9F9;
+header {
+    background: #EEEEF7;
 }
 
 .carousel-caption {
@@ -11,3 +15,16 @@ nav {
     font-family: 'Niconne', cursive;
 }
 
+.site-footer {
+    background-color: #EEEEF7;
+    padding: 20px 0px;
+}
+
+.row-content {
+    padding: 50px 0px;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+/* li {
+    padding: 10px;
+} */
